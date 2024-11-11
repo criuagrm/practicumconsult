@@ -1,1 +1,90 @@
+/* Colores oficiales */
+:root {
+    --uagrm-blue: #003366; /* Azul oscuro */
+    --uagrm-light-blue: #336699; /* Azul más claro */
+    --uagrm-white: #ffffff;
+    --uagrm-gray: #f0f0f0;
+}
+
+/* Estilos generales */
+body {
+    background-color: var(--uagrm-gray);
+    color: var(--uagrm-blue);
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado principal */
+h1, h2 {
+    color: var(--uagrm-blue);
+    font-weight: bold;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: var(--uagrm-blue);
+    border-color: var(--uagrm-blue);
+}
+
+.btn-primary:hover {
+    background-color: var(--uagrm-light-blue);
+    border-color: var(--uagrm-light-blue);
+}
+
+/* Formulario de búsqueda */
+.form-control {
+    border: 1px solid var(--uagrm-light-blue);
+}
+
+.form-group label {
+    color: var(--uagrm-blue);
+}
+
+/* Tarjeta de resultados */
+.list-group-item {
+    background-color: var(--uagrm-white);
+    border-color: var(--uagrm-light-blue);
+    color: var(--uagrm-blue);
+}
+
+.list-group-item a {
+    color: var(--uagrm-blue);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.list-group-item a:hover {
+    color: var(--uagrm-light-blue);
+}
+
+/* Estilos de alertas */
+.alert-success {
+    background-color: var(--uagrm-light-blue);
+    color: var(--uagrm-white);
+}
+
+/* Jumbotron para la página de inicio */
+.jumbotron {
+    background-color: var(--uagrm-blue);
+    color: var(--uagrm-white);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+}
+
+/* Espaciado y márgenes */
+.container {
+    margin-top: 20px;
+}
+
+hr {
+    border-top: 1px solid var(--uagrm-light-blue);
+}
 
