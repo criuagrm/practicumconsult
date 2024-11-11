@@ -1,1 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>{{ work['title'] }}</h2>
+<p><strong>Autor:</strong> {{ work['author'] }}</p>
+<p><strong>Año:</strong> {{ work['year'] }}</p>
+<p><strong>Nivel de Prácticum:</strong> {{ work['practicum_level'] }}</p>
+<p><strong>Resumen:</strong> {{ work['description'] }}</p>
+
+<form method="POST" action="{{ url_for('request_work', id=work['id']) }}">
+    <button type="submit" class="btn btn-success">Solicitar en Oficina</button>
+</form>
+{% endblock %}
 
