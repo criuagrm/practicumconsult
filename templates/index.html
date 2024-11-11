@@ -1,1 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="jumbotron text-center">
+    <h1>Consulta del Prácticum</h1>
+    <p>Bienvenido al sistema de consulta de trabajos de Prácticum.</p>
+    <a href="{{ url_for('search') }}" class="btn btn-primary">Buscar Trabajos</a>
+</div>
+{% endblock %}
 
